@@ -13,8 +13,6 @@
 		overflow: hidden;
 	}
 	.illustration {
-		display: flex;
-		justify-content: center;
 		
 		img {
 			display: block;
