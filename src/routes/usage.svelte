@@ -6,6 +6,7 @@
   @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
   @import "../var.scss";
   #usage {
+    padding-bottom: 6rem;
     @include breakpoint($breakMobile) {
       padding-bottom: 15vh;
     }
@@ -52,9 +53,10 @@
   <p>You'll need the server app that acts as a gateway for communication between MS FS 2020 and FS Map Tool, and the client FS Map Tool mobile app.</p>
   <p>Follow these steps:</p>
   <ul>
-    <li>Download the server app installer: <a href="/">FS Map Tool Server</a>
+    <li>Download the server app (currently Windows 10 64bit only):
       <ul>
-        <li>currently Windows 10 64bit only</li>
+        <li><a href="http://fsmaptool.riccardolardi.com/1.0.0/FS Map Tool Setup 1.0.0.exe">FS Map Tool Server Installer</a></li>
+        <li><a href="http://fsmaptool.riccardolardi.com/1.0.0/FS Map Tool 1.0.0.exe">FS Map Tool Server Executable</a></li>
       </ul>
     </li>
     <li>Launch the installer, the app will install and launch automatically
@@ -62,11 +64,13 @@
         <li>The app will run in background and show up in the system tray as a small icon</li>
         <li>Clicking on the system tray app icon opens up a context menu</li>
         <li>The app will now listen for MS FS 2020 data and forward if requested</li>
+        <li>The tray icon will turn to green as soon as it's connected with MS FS 2020</li>
       </ul>
     </li>
     <li>Click on the system tray app icon to show your PC IP address</li>
-    <li>Download the mobile app from <a href="/">Apple App Store</a>
+    <li>Download the mobile app for your tablet or phone:
       <ul>
+        <li><a href="/">FS Map Tool on Apple App Store</a></li>
         <li>Android version / Google Play coming soon</li>
       </ul>
     </li>

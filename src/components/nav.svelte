@@ -10,11 +10,11 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    position: sticky;
+    top: 0px;
     background-color: #cae3e1;
     padding: 0 0 0 2rem;
     @include breakpoint($breakMobile) {
-      position: sticky;
-      top: 0px;
       flex-direction: column-reverse;
       align-items: stretch;
       padding: 0;

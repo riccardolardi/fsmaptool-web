@@ -42,7 +42,7 @@
     }
 	}
 	main {
-		padding: 2rem;
+		padding: 2rem 2rem 0;
 	}
 	a {
 		color: #192e3b;

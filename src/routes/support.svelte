@@ -6,6 +6,7 @@
   @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
   @import "../var.scss";
   #support {
+    padding-bottom: 6rem;
     @include breakpoint($breakMobile) {
       padding-bottom: 15vh;
     }
