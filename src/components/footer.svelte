@@ -16,6 +16,23 @@
   }
   ul {
     display: flex;
+    & + ul {
+      li {
+        &:last-child {
+          &:after {
+            content: "";
+          }
+        }
+      }
+    }
+  }
+  .left {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    @include breakpoint($breakMobile) {
+      font-size: 2vw;
+    }
     li {
       margin-right: 1rem;
       @include breakpoint($breakMobile) {
@@ -28,23 +45,9 @@
           margin-left: 0.25rem;
         }
       }
-      &:last-child {
-        margin-right: 0;
-        &:after {
-          content: "";
-        }
-      }
       a {
         color: white;
       }
-    }
-  }
-  .left {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 0.85rem;
-    @include breakpoint($breakMobile) {
-      font-size: 2vw;
     }
   }
 </style>
@@ -53,11 +56,11 @@
   <div class="left">
     <ul>
       <li><a href="/">Apple App Store</a></li>
-      <li><a href="/">Google Play</a></li>
+      <!-- <li><a href="/">Google Play</a></li> -->
       <li><a href="https://github.com/riccardolardi/fsmaptool-client">Github Client</a></li>
+      <li><a href="https://github.com/riccardolardi/fsmaptool-server">Github Server</a></li>
     </ul>
     <ul>
-      <li><a href="https://github.com/riccardolardi/fsmaptool-server">Github Server</a></li>
       <li><a href="https://github.com/riccardolardi/fsmaptool-web/blob/master/PRIVACY.md">Privacy Policy</a></li>
       <li><a href="https://github.com/riccardolardi/fsmaptool-web/blob/master/TERMS.md">Terms of use</a></li>
     </ul>
