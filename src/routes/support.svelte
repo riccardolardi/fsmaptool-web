@@ -3,13 +3,12 @@
 </script>
 
 <style lang="scss">
+  @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
+  @import "../var.scss";
   #support {
-
-  }
-  h2 {
-    color: #192e3b;
-    font-size: 2rem;
-    line-height: 4rem;
+    @include breakpoint($breakMobile) {
+      padding-bottom: 15vh;
+    }
   }
 </style>
 

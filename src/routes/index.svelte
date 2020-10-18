@@ -3,6 +3,8 @@
 </script>
 
 <style lang="scss">
+  @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
+  @import "../var.scss";
 	#home {
 		display: flex;
 		flex-direction: column;
@@ -20,16 +22,25 @@
 			object-fit: cover;
 		}
 	}
-	h2, h3 {
-		position: relative;
-		z-index: 10;
-		line-height: 150%;
+	h1 {
+		color: #192e3b;
+		display: none;
+		@include breakpoint($breakMobile) {
+			line-height: 2.4rem;
+			display: block;
+		}
 	}
 	h2 {
-		color: #192e3b;
+		@include breakpoint($breakMobile) {
+			font-size: 1.4rem;
+			line-height: 125%;
+		}
 	}
 	h3 {
 		font-size: 3rem;
+		@include breakpoint($breakMobile) {
+			font-size: 2rem;
+		}
 	}
 </style>
 
@@ -39,6 +50,7 @@
 
 <div id="home">
 	<div class="text">
+		<h1>FS Map Tool</h1>
 		<h2 class="italic">A map utility tool for MS Flight Simulator 2020</h2>
 		<h3 class="italic cite">See where you're flying on your tablet or phone.</h3>
 	</div>

@@ -3,13 +3,12 @@
 </script>
 
 <style lang="scss">
+  @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
+  @import "../var.scss";
   #usage {
-
-  }
-  h2 {
-    color: #192e3b;
-    font-size: 2rem;
-    line-height: 4rem;
+    @include breakpoint($breakMobile) {
+      padding-bottom: 15vh;
+    }
   }
   ul {
     margin-top: 1rem;
@@ -34,7 +33,7 @@
   <p>You'll need the server app that acts as a gateway for communication between MS FS 2020 and FS Map Tool, and the client FS Map Tool mobile app.</p>
   <p>Follow these steps:</p>
   <ul>
-    <li>Download the server app installer: <a href="">FS Map Tool Server</a>
+    <li>Download the server app installer: <a href="/">FS Map Tool Server</a>
       <ul>
         <li>currently Windows 10 64bit only</li>
       </ul>
@@ -47,7 +46,7 @@
       </ul>
     </li>
     <li>Click on the system tray app icon to show your PC IP address</li>
-    <li>Download the mobile app <a href="">Apple App Store</a> or <a href="">Google Play</a></li>
+    <li>Download the mobile app <a href="/">Apple App Store</a> or <a href="/">Google Play</a></li>
     <li>Launch the mobile app on your mobile device and enter the PC IP address</li>
     <li class="italic">Ready to fly!</li>
   </ul>

@@ -3,6 +3,8 @@
 </script>
 
 <style lang="scss">
+  @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
+  @import "../var.scss";
   nav {
     display: flex;
     justify-content: space-between;
@@ -10,6 +12,13 @@
     align-items: center;
     background-color: #cae3e1;
     padding: 0 0 0 2rem;
+    @include breakpoint($breakMobile) {
+      position: sticky;
+      top: 0px;
+      flex-direction: column-reverse;
+      align-items: stretch;
+      padding: 0;
+    }
   }
   ul {
     display: flex;
@@ -19,6 +28,9 @@
     li {
       background-color: #4f9eaf;
       transition: background-color 250ms;
+      @include breakpoint($breakMobile) {
+        flex: 1;
+      }
       &.active {
         background-color: #192e3b;
       }
@@ -29,6 +41,11 @@
         padding: 0 2rem;
         text-decoration: none;
       }
+    }
+  }
+  h1 {
+    @include breakpoint($breakMobile) {
+      display: none;
     }
   }
 </style>

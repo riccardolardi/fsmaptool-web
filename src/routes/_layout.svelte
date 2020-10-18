@@ -5,6 +5,8 @@
 </script>
 
 <style global lang="scss">
+	@import 'breakpoint-sass/stylesheets/_breakpoint.scss';
+	@import "../var.scss";
 	@font-face {
 	  font-family: 'Ubuntu';
 	  font-weight: 400;
@@ -35,6 +37,9 @@
 		font-size: 1.6rem;
 		line-height: 135%;
 		color: #4f9eaf;
+    @include breakpoint($breakMobile) {
+      font-size: 4vw;
+    }
 	}
 	main {
 		padding: 2rem;
@@ -46,6 +51,22 @@
     font-size: 2rem;
     line-height: 4rem;
   }
+  h2 {
+  	color: #192e3b;
+  	font-size: 2rem;
+  	line-height: 4rem;
+		@include breakpoint($breakMobile) {
+			line-height: 2.4rem;
+			margin-bottom: 1rem;
+		}
+  }
+	h3 {
+		font-size: 2rem;
+		line-height: 4rem;
+		@include breakpoint($breakMobile) {
+			line-height: 2.4rem;
+		}
+	}
   .italic {
   	font-family: 'Ubuntu-Italic';
   }
@@ -59,6 +80,9 @@
   }
   p {
   	max-width: 65vw;
+  	@include breakpoint($breakMobile) {
+  		max-width: none;
+  	}
 	  & + p {
 	    margin-top: 1rem;
 	  }

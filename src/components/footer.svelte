@@ -3,6 +3,8 @@
 </script>
 
 <style lang="scss">
+  @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
+  @import "../var.scss";
   footer {
     display: flex;
     justify-content: space-between;
@@ -14,17 +16,17 @@
   }
   ul {
     display: flex;
-    &.left {
-      font-size: 0.85rem;
-    }
-    &.right {
-      
-    }
     li {
       margin-right: 1rem;
+      @include breakpoint($breakMobile) {
+        margin-right: 0.25rem;
+      }
       &:after {
         content: "|";
         margin-left: 1rem;
+        @include breakpoint($breakMobile) {
+          margin-left: 0.25rem;
+        }
       }
       &:last-child {
         margin-right: 0;
@@ -37,17 +39,29 @@
       }
     }
   }
+  .left {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    @include breakpoint($breakMobile) {
+      font-size: 2vw;
+    }
+  }
 </style>
 
 <footer>
-  <ul class="left">
-    <li><a href="">Apple App Store</a></li>
-    <li><a href="">Google Play</a></li>
-    <li><a href="https://github.com/riccardolardi/fsmaptool-client">Github Client</a></li>
-    <li><a href="https://github.com/riccardolardi/fsmaptool-server">Github Server</a></li>
-    <li><a href="https://github.com/riccardolardi/fsmaptool-web/blob/master/PRIVACY.md">Privacy Policy</a></li>
-    <li><a href="https://github.com/riccardolardi/fsmaptool-web/blob/master/TERMS.md">Terms of use</a></li>
-  </ul>
+  <div class="left">
+    <ul>
+      <li><a href="/">Apple App Store</a></li>
+      <li><a href="/">Google Play</a></li>
+      <li><a href="https://github.com/riccardolardi/fsmaptool-client">Github Client</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://github.com/riccardolardi/fsmaptool-server">Github Server</a></li>
+      <li><a href="https://github.com/riccardolardi/fsmaptool-web/blob/master/PRIVACY.md">Privacy Policy</a></li>
+      <li><a href="https://github.com/riccardolardi/fsmaptool-web/blob/master/TERMS.md">Terms of use</a></li>
+    </ul>
+  </div>
   <ul class="right">
     <li>
       <span class="italic">Happy Flying!</span>
