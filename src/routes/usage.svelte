@@ -1,0 +1,54 @@
+<script>
+  
+</script>
+
+<style lang="scss">
+  #usage {
+
+  }
+  h2 {
+    color: #192e3b;
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  ul {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    li {
+      list-style: disc;
+      ul {
+        margin-top: 0;
+        margin-left: 2rem;
+        font-size: 1rem;
+        line-height: 150%;
+        li {
+          list-style: circle;
+        }
+      }
+    }
+  }
+</style>
+
+<div id="usage">
+  <h2>Using FS Map Tool is easy.</h2>
+  <p>You'll need the server app that acts as a gateway for communication between MS FS 2020 and FS Map Tool, and the client FS Map Tool mobile app.</p>
+  <p>Follow these steps:</p>
+  <ul>
+    <li>Download the server app installer: <a href="">FS Map Tool Server</a>
+      <ul>
+        <li>currently Windows 10 64bit only</li>
+      </ul>
+    </li>
+    <li>Launch the installer, the app will install and launch automatically
+      <ul>
+        <li>The app will run in background and show up in the system tray as a small icon</li>
+        <li>Clicking on the system tray app icon opens up a context menu</li>
+        <li>The app will now listen for MS FS 2020 data and forward if requested</li>
+      </ul>
+    </li>
+    <li>Click on the system tray app icon to show your PC IP address</li>
+    <li>Download the mobile app <a href="">Apple App Store</a> or <a href="">Google Play</a></li>
+    <li>Launch the mobile app on your mobile device and enter the PC IP address</li>
+    <li class="italic">Ready to fly!</li>
+  </ul>
+</div>
