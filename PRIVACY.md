@@ -1,6 +1,6 @@
-#Privacy Policy
+# Privacy Policy
 
-##FS Map Tool
+## FS Map Tool
 
 Your privacy is important to us. It is FS Map Tool's policy to respect your privacy regarding any information we may collect from you across our website, <a href="http://www.fsmaptool.com">http://www.fsmaptool.com</a>, and other sites we own and operate.
 
