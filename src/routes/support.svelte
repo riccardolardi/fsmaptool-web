@@ -12,6 +12,11 @@
   }
 </style>
 
+<svelte:head>
+  <title>FS Map Tool | Get in touch</title>
+  <meta name="description" content="Get in touch with the developer." />
+</svelte:head>
+
 <div id="support">
   <h2>Let me know what you think.</h2>
   <p>This software has been made in my spare time as a fun side project. Still, I'm committed to keep up with development, listen to feedback, add new features and fix bugs.</p>

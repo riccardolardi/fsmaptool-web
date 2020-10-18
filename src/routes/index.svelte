@@ -44,6 +44,7 @@
 
 <svelte:head>
 	<title>FS Map Tool | See where you're flying on your tablet or phone.</title>
+	<meta name="description" content="A mobile device map utility tool for MS Flight Simulator 2020 that lets you see your current airplane position on a map." />
 </svelte:head>
 
 <div id="home">

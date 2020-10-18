@@ -42,6 +42,11 @@
   }
 </style>
 
+<svelte:head>
+  <title>FS Map Tool | How to use</title>
+  <meta name="description" content="Using FS Map Tool is easy. 1 + 1 = 2." />
+</svelte:head>
+
 <div id="usage">
   <h2>Using FS Map Tool is easy.</h2>
   <p>You'll need the server app that acts as a gateway for communication between MS FS 2020 and FS Map Tool, and the client FS Map Tool mobile app.</p>
