@@ -21,7 +21,7 @@ By accessing the website at <a href="http://www.fsmaptool.com">http://www.fsmapt
    <li>This license shall automatically terminate if you violate any of these restrictions and may be terminated by FS Map Tool at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.</li>
 </ol>
 
-### >3. Disclaimer
+### 3. Disclaimer
 
 <ol type="a">
    <li>The materials on FS Map Tool's website are provided on an 'as is' basis. FS Map Tool makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</li>
