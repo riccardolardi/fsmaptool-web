@@ -13,15 +13,29 @@
   ul {
     margin-top: 1rem;
     margin-left: 2rem;
+    @include breakpoint($breakMobile) {
+      margin-left: 1rem;
+    }
     li {
       list-style: disc;
+      @include breakpoint($breakMobile) {
+        margin-bottom: 0.5rem;
+      }
       ul {
         margin-top: 0;
         margin-left: 2rem;
         font-size: 1rem;
         line-height: 150%;
+        @include breakpoint($breakMobile) {
+          font-size: unset;
+          line-height: unset;
+          margin-left: 1rem;
+        }
         li {
           list-style: circle;
+          @include breakpoint($breakMobile) {
+            margin-bottom: 0;
+          }
         }
       }
     }
@@ -46,10 +60,11 @@
       </ul>
     </li>
     <li>Click on the system tray app icon to show your PC IP address</li>
-    <li>Download the mobile app from <a href="/">Apple App Store</a></li>
+    <li>Download the mobile app from <a href="/">Apple App Store</a>
       <ul>
         <li>Android version / Google Play coming soon</li>
       </ul>
+    </li>
     <li>Launch the mobile app on your mobile device and enter the PC IP address</li>
     <li class="italic">Ready to fly!</li>
   </ul>

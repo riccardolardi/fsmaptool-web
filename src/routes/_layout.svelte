@@ -46,6 +46,7 @@
 	}
 	a {
 		color: #192e3b;
+    white-space: nowrap;
 	}
   h1 {
     font-size: 2rem;

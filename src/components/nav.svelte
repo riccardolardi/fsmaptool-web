@@ -40,6 +40,7 @@
         color: white;
         padding: 0 2rem;
         text-decoration: none;
+        text-align: center;
       }
     }
   }
