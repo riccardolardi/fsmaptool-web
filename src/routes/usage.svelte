@@ -46,7 +46,10 @@
       </ul>
     </li>
     <li>Click on the system tray app icon to show your PC IP address</li>
-    <li>Download the mobile app <a href="/">Apple App Store</a> or <a href="/">Google Play</a></li>
+    <li>Download the mobile app from <a href="/">Apple App Store</a></li>
+      <ul>
+        <li>Android version / Google Play coming soon</li>
+      </ul>
     <li>Launch the mobile app on your mobile device and enter the PC IP address</li>
     <li class="italic">Ready to fly!</li>
   </ul>
