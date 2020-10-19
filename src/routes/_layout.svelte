@@ -1,6 +1,10 @@
 <script>
+  import GoogleAnalytics from 'sapper-google-analytics/GoogleAnalytics.svelte';
+  import { stores } from '@sapper/app';
 	import Nav from '../components/nav.svelte';
 	import Footer from '../components/footer.svelte';
+
+  let ga_measurment_id = 'UA-16856648-9'
 	export let segment;
 </script>
 
@@ -34,7 +38,7 @@
 	}
 	body {
 		font-family: 'Ubuntu';
-		font-size: 1.6rem;
+		font-size: 1.2rem;
 		line-height: 135%;
 		color: #4f9eaf;
     @include breakpoint($breakMobile) {
@@ -49,13 +53,13 @@
     white-space: nowrap;
 	}
   h1 {
-    font-size: 2rem;
-    line-height: 4rem;
+    font-size: 1.2rem;
   }
   h2 {
   	color: #192e3b;
   	font-size: 2rem;
   	line-height: 4rem;
+    max-width: 75%;
 		@include breakpoint($breakMobile) {
 			line-height: 2.4rem;
 			margin-bottom: 1rem;
@@ -68,6 +72,9 @@
 			line-height: 2.4rem;
 		}
 	}
+  .bold {
+    font-family: 'Ubuntu-Bold';
+  }
   .italic {
   	font-family: 'Ubuntu-Italic';
   }
@@ -89,6 +96,8 @@
 	  }
   }
 </style>
+
+<GoogleAnalytics {stores} id={ga_measurment_id} />
 
 <Nav {segment} />
 

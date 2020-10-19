@@ -50,7 +50,7 @@
 
 <div id="usage">
   <h2>Using FS Map Tool is easy.</h2>
-  <p>You'll need the server app that acts as a gateway for communication between MS FS 2020 and FS Map Tool, and the client FS Map Tool mobile app.</p>
+  <p class="italic">You'll need the server app that acts as a gateway for communication between MS FS 2020 and FS Map Tool, and the client FS Map Tool mobile app.</p>
   <p>Follow these steps:</p>
   <ul>
     <li>Download the server app (currently Windows 10 64bit only)

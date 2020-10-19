@@ -52,7 +52,7 @@
 </style>
 
 <nav>
-  <h1>FS Map Tool</h1>
+  <h1 class="bold">FS Map Tool</h1>
   <ul>
     <li class:active={!segment}><a href=".">Home</a></li>
     <li class:active={segment === 'usage'}><a href="/usage">Usage</a></li>

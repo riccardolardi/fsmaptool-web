@@ -9,8 +9,11 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		height: calc(100vh - 10rem);
+		height: calc(100vh - 6rem);
 		overflow: hidden;
+		@include breakpoint($breakMobile) {
+			height: calc(100vh - 10rem);
+		}
 	}
 	.illustration {
 		
@@ -24,7 +27,9 @@
 		color: #192e3b;
 		display: none;
 		@include breakpoint($breakMobile) {
+			font-size: 2rem;
 			line-height: 2.4rem;
+			margin-bottom: 1rem;
 			display: block;
 		}
 	}
@@ -32,12 +37,15 @@
 		@include breakpoint($breakMobile) {
 			font-size: 1.4rem;
 			line-height: 125%;
+			max-width: none;
 		}
 	}
 	h3 {
 		font-size: 3rem;
+		padding-left: 2rem;
 		@include breakpoint($breakMobile) {
 			font-size: 2rem;
+			padding-left: 1.5rem;
 		}
 	}
 </style>
