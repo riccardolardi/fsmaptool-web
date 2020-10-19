@@ -55,8 +55,8 @@
 <footer>
   <div class="left">
     <ul>
-      <li><a href="/">Apple App Store</a></li>
-      <li><a href="/">Google Play</a></li>
+      <li><a href="https://apps.apple.com/us/app/id1536321554#?platform=iphone">Apple App Store</a></li>
+      <li><a href="/">Google Play (coming soon)</a></li>
       <li><a href="https://github.com/riccardolardi/fsmaptool-client">Github Client</a></li>
     </ul>
     <ul>
