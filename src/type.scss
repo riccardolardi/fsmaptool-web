@@ -6,6 +6,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: url('/fonts/ubuntu-v15-latin-regular.eot'); /* IE9 Compat Modes */
   src: local('Ubuntu Regular'), local('Ubuntu-Regular'),
        url('/fonts/ubuntu-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -19,6 +20,7 @@
   font-family: 'Ubuntu';
   font-style: italic;
   font-weight: 400;
+  font-display: swap;
   src: url('/fonts/ubuntu-v15-latin-italic.eot'); /* IE9 Compat Modes */
   src: local('Ubuntu Italic'), local('Ubuntu-Italic'),
        url('/fonts/ubuntu-v15-latin-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -32,6 +34,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
   src: url('/fonts/ubuntu-v15-latin-700.eot'); /* IE9 Compat Modes */
   src: local('Ubuntu Bold'), local('Ubuntu-Bold'),
        url('/fonts/ubuntu-v15-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
@@ -58,8 +61,7 @@ h1 {
 h2 {
   color: #192e3b;
   font-size: 2rem;
-  line-height: 2rem;
-  max-width: 75%;
+  line-height: 2.5rem;
   @include breakpoint($breakMobile) {
     line-height: 2.4rem;
     margin-bottom: 1rem;
@@ -68,7 +70,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  line-height: 4rem;
+  line-height: 3.5rem;
   @include breakpoint($breakMobile) {
     line-height: 2.4rem;
   }

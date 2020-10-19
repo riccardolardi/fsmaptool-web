@@ -71,7 +71,7 @@
     <li>Click on the system tray app icon to show your PC IP address</li>
     <li>Download the mobile app for your tablet or phone
       <ul>
-        <li><a href="/">FS Map Tool on Apple App Store</a></li>
+        <li><a href="https://apps.apple.com/us/app/id1536321554#?platform=iphone" rel="noreferrer" target="_blank">FS Map Tool on Apple App Store</a></li>
         <li>Android version / Google Play coming soon</li>
       </ul>
     </li>

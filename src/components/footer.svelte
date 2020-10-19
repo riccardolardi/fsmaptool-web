@@ -31,7 +31,7 @@
     flex-wrap: wrap;
     font-size: 0.85rem;
     @include breakpoint($breakMobile) {
-      font-size: 2vw;
+      font-size: 3vw;
     }
     li {
       margin-right: 1rem;
