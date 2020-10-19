@@ -58,7 +58,7 @@ h1 {
 h2 {
   color: #192e3b;
   font-size: 2rem;
-  line-height: 4rem;
+  line-height: 2rem;
   max-width: 75%;
   @include breakpoint($breakMobile) {
     line-height: 2.4rem;

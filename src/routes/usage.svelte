@@ -19,6 +19,7 @@
     }
     li {
       list-style: disc;
+      margin-bottom: 0.5rem;
       @include breakpoint($breakMobile) {
         margin-bottom: 0.5rem;
       }
@@ -34,6 +35,7 @@
         }
         li {
           list-style: circle;
+          margin-bottom: 0;
           @include breakpoint($breakMobile) {
             margin-bottom: 0;
           }
@@ -53,11 +55,9 @@
   <p class="italic">You'll need the server app that acts as a gateway for communication between MS FS 2020 and FS Map Tool, and the client FS Map Tool mobile app.</p>
   <p>Follow these steps:</p>
   <ul>
-    <li>Download the server app (currently Windows 10 64bit only)
+    <li>Download the server app installer (currently Windows 10 64bit only)
       <ul>
-        <li>Installer or bare executable (installer recommended):</li>
-        <li><a href="https://fsmaptool.riccardolardi.com/1.0.0/FS Map Tool Setup 1.0.0.exe">FS Map Tool Server Installer</a></li>
-        <li><a href="https://fsmaptool.riccardolardi.com/1.0.0/FS Map Tool 1.0.0.exe">FS Map Tool Server Executable</a></li>
+        <li><a href="https://fsmaptool.riccardolardi.com/1.0.0/FS Map Tool Setup 1.0.0.exe">FS Map Tool Server Installer 1.0.0</a></li>
       </ul>
     </li>
     <li>Launch the installer, the app will install and launch automatically
