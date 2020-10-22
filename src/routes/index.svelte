@@ -72,14 +72,14 @@
 </style>
 
 <svelte:head>
-	<title>FS Map Tool | See where you're flying on your tablet or phone.</title>
-	<meta name="description" content="A mobile device map utility tool for MS Flight Simulator 2020 that lets you see your current airplane position on a map." />
+	<title>FS Map Tool | Transform your tablet or phone into an external map display.</title>
+	<meta name="description" content="A mobile device (iOS and Android) map utility tool for Microsoft Flight Simulator 2020 that lets you see your current airplane position on an interactive map." />
 </svelte:head>
 
 <div id="home">
 	<div class="text">
 		<h1 class="bold">FS Map Tool</h1>
-		<h2 class="italic">A map utility tool for MS Flight Simulator 2020</h2>
+		<h2 class="italic">A map utility tool for Microsoft Flight Simulator 2020</h2>
 		<h3 class="italic cite">See where you're flying on your tablet or phone.</h3>
 		<figure class="appstore-badge">
 			<a href="https://apps.apple.com/us/app/id1536321554#?platform=iphone" rel="noreferrer" target="_blank">
