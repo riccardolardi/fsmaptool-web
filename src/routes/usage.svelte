@@ -71,8 +71,8 @@
     <li>Click on the system tray app icon to show your PC IP address</li>
     <li>Download the mobile app for your tablet or phone
       <ul>
-        <li><a href="https://apps.apple.com/us/app/id1536321554#?platform=iphone" rel="noreferrer" target="_blank">FS Map Tool on Apple App Store</a></li>
-        <li>Android version / Google Play coming soon</li>
+        <li><a href="https://apps.apple.com/us/app/id1536321554#?platform=iphone" rel="noreferrer" target="_blank"><b>iOS</b> FS Map Tool on Apple App Store</a></li>
+        <li><a href="https://play.google.com/store/apps/details?id=com.riccardolardi.fsmaptool" rel="noreferrer" target="_blank"><b>Android</b> FS Map Tool on Google Play Store</a></li>
       </ul>
     </li>
     <li>Launch the mobile app on your mobile device and enter the PC IP address</li>
