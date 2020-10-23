@@ -41,6 +41,9 @@
         padding: 0 2rem;
         text-decoration: none;
         text-align: center;
+        @include breakpoint($breakMobile) {
+          padding: 0;
+        }
       }
     }
   }
