@@ -26,13 +26,13 @@
     justify-content: center;
     align-items: center;
     li {
-      background-color: #4f9eaf;
+      background-color: $greenLight;
       transition: background-color 250ms;
       @include breakpoint($breakMobile) {
         flex: 1;
       }
       &.active {
-        background-color: #192e3b;
+        background-color: $greenDark;
       }
       a {
         display: block;
@@ -60,6 +60,7 @@
   <ul>
     <li class:active={!segment}><a href=".">Home</a></li>
     <li class:active={segment === 'usage'}><a href="/usage">Usage</a></li>
+    <li class:active={segment === 'faq'}><a href="/faq">FAQ</a></li>
     <li class:active={segment === 'support'}><a href="/support">Support</a></li>
   </ul>
 </nav>

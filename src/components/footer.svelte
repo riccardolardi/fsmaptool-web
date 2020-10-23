@@ -11,7 +11,7 @@
     position: absolute;
     width: 100%;
     bottom: 0px;
-    background-color: #192e3b;
+    background-color: $greenDark;
     padding: 1rem;
   }
   ul {

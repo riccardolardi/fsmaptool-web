@@ -48,7 +48,7 @@ body {
   font-family: 'Ubuntu';
   font-size: 1.2rem;
   line-height: 135%;
-  color: #4f9eaf;
+  color: $greenLight;
   @include breakpoint($breakMobile) {
     font-size: 4vw;
   }
@@ -59,7 +59,7 @@ h1 {
 }
 
 h2 {
-  color: #192e3b;
+  color: $greenDark;
   font-size: 2rem;
   line-height: 2.5rem;
   @include breakpoint($breakMobile) {
@@ -99,6 +99,9 @@ p {
     max-width: none;
   }
   & + p {
+    margin-top: 1rem;
+  }
+  &:first-of-type {
     margin-top: 1rem;
   }
 }

@@ -53,7 +53,7 @@
 		}
 	}
 	h1 {
-		color: #192e3b;
+		color: $greenDark;
 		display: none;
 		@include breakpoint($breakMobile) {
 			font-size: 2rem;
