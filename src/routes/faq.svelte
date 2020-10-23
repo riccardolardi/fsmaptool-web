@@ -70,7 +70,13 @@
     </li>
     <li>The keyboard doesn't contain a "dot" so I cannot insert a valid IP address
       <ul>
-        <li>This is a bug specific to localization of the mobile device</li>
+        <li>This is a bug specific to localization of the mobile device (Oct. 21st 2020)</li>
+        <li>A fix (client v1.0.9) is currently rolling out and should be available in a few days</li>
+      </ul>
+    </li>
+    <li>It's stuck at the Splash Screen (illutration)
+      <ul>
+        <li>This is currently a bug on some Android devices (Oct. 23rd 2020)</li>
         <li>A fix (client v1.0.9) is currently rolling out and should be available in a few days</li>
       </ul>
     </li>
