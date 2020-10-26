@@ -62,22 +62,16 @@
         <li>After installation of the redistributables the server should work as expected</li>
       </ul>
     </li>
-    <li>On my tablet I am not able to press the lower buttons
-      <ul>
-        <li>This has been a tablet specific layout bug that has been sorted out in the current version</li>
-        <li>Please update your client app from App Store / Google Play to the latest version</li>
-      </ul>
-    </li>
     <li>The keyboard doesn't contain a "dot" so I cannot insert a valid IP address
       <ul>
         <li>This is a bug specific to localization of the mobile device (Oct. 21st 2020)</li>
         <li>A fix (client v1.0.9) is currently rolling out and should be available in a few days</li>
       </ul>
     </li>
-    <li>It's stuck at the Splash Screen (illutration)
+    <li>I get an error saying "EADDRESS IN USE"
       <ul>
-        <li>This is currently a bug on some Android devices (Oct. 23rd 2020)</li>
-        <li>A fix (client v1.0.9) is currently rolling out and should be available in a few days</li>
+        <li>This means you have multiple instances of the server application running</li>
+        <li>Kill all open instances using Windows Task Manager, then open it only once</li>
       </ul>
     </li>
   </ul>
