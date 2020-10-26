@@ -1,7 +1,3 @@
-<script>
-  
-</script>
-
 <style lang="scss">
   @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
   @import "../var.scss";
