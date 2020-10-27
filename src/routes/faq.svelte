@@ -70,5 +70,11 @@
         <li>Kill all open instances using Windows Task Manager, then open it only once</li>
       </ul>
     </li>
+    <li>The app keeps saying "Waiting for server data"
+      <ul>
+        <li>Ensure both your mobile device as well as your PC are on the same local network</li>
+        <li>Confirm Windows firewall / security settings are not blocking the app communication</li>
+      </ul>
+    </li>
   </ul>
 </div>
