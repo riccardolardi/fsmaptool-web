@@ -42,8 +42,8 @@
 </style>
 
 <svelte:head>
-  <title>FS Map Tool | How to use</title>
-  <meta name="description" content="Using FS Map Tool is easy. 1 + 1 = 2." />
+  <title>FS Map Tool | Frequently asked questions</title>
+  <meta name="description" content="Find answers to the most Frequently asked questions." />
 </svelte:head>
 
 <div id="faq">
@@ -60,8 +60,9 @@
     </li>
     <li>The keyboard doesn't contain a "dot" so I cannot insert a valid IP address
       <ul>
-        <li>This is a bug specific to localization of the mobile device (Oct. 21st 2020)</li>
-        <li>A fix (client v1.0.9) is currently rolling out and should be available in a few days</li>
+        <li>This is a bug specific to localization of the mobile device</li>
+        <li>A fix is currently rolling out and will be available soon</li>
+        <li>As a workaround you can copy the IP address from within another app (eg Notes) and paste it back into the IP address field</li>
       </ul>
     </li>
     <li>I get an error saying "EADDRESS IN USE"

@@ -1,7 +1,7 @@
 <style lang="scss">
   @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
   @import "../var.scss";
-  #usage {
+  #setup {
     padding-bottom: 6rem;
     @include breakpoint($breakMobile) {
       padding-bottom: 15vh;
@@ -46,9 +46,9 @@
   <meta name="description" content="Using FS Map Tool is easy. 1 + 1 = 2." />
 </svelte:head>
 
-<div id="usage">
+<div id="setup">
   <h2>Using FS Map Tool is easy.</h2>
-  <p class="italic">You'll need the server app that acts as a gateway for communication between MS FS 2020 and FS Map Tool, and the client FS Map Tool mobile app.</p>
+  <p class="italic">Alongside the mobile app you'll need to install the server application on your PC, which will act as a gateway for communication between MS FS 2020 and FS Map Tool.</p>
   <p>Follow these steps:</p>
   <ul>
     <li>Download the server app installer (currently Windows 10 64bit only)
