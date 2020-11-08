@@ -48,7 +48,7 @@
 
 <div id="faq">
   <h2>Frequently asked questions.</h2>
-  <p>If you face any issues, check here for possible solutions:</p>
+  <p class="italic">If you face any issues, check here for possible solutions:</p>
   <ul>
     <li>I get an error saying "Uncaught Exception: Error: The specified module could not be found"
       <ul>

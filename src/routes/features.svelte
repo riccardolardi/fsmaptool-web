@@ -48,7 +48,8 @@
 
 <div id="features">
   <h2>Interactive Map, Waypoints, Flight Data,...</h2>
-  <p>FS Map Tool is actively maintained and extended with new features on a regular basis.<br/>Currently these are the apps main features:</p>
+  <p class="italic">FS Map Tool is actively maintained and extended with new features on a regular basis.</p>
+  <p>Currently these are the apps main features:</p>
   <ul>
     <li>Interactive Map & plane location
       <ul>
