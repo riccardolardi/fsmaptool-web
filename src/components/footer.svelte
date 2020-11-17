@@ -31,7 +31,7 @@
     flex-wrap: wrap;
     font-size: 0.85rem;
     @include breakpoint($breakMobile) {
-      font-size: 3vw;
+      font-size: 2.6vw;
     }
     li {
       margin-right: 1rem;
@@ -47,6 +47,30 @@
       }
       a {
         color: white;
+      }
+    }
+  }
+  .right {
+    display: flex;
+    @include breakpoint($breakMobile) {
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    li {
+      display: flex;
+      align-items: center;
+      margin-right: 1rem;
+      @include breakpoint($breakMobile) {
+        margin-right: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    a {
+      color: white;
+      @include breakpoint($breakMobile) {
+        font-size: 2.6vw;
       }
     }
   }
@@ -66,6 +90,9 @@
     </ul>
   </div>
   <ul class="right">
+    <li>
+      <a href="mailto:info@fsmaptool.com">info@fsmaptool.com</a>
+    </li>
     <li>
       <span class="italic">Happy Flying!</span>
     </li>

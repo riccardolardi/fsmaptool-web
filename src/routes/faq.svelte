@@ -58,13 +58,6 @@
         <li>After installation of the redistributables the server should work as expected</li>
       </ul>
     </li>
-    <li>The keyboard doesn't contain a "dot" so I cannot insert a valid IP address
-      <ul>
-        <li>This is a bug specific to localization of the mobile device</li>
-        <li>A fix is currently rolling out and will be available soon</li>
-        <li>As a workaround you can copy the IP address from within another app (eg Notes) and paste it back into the IP address field</li>
-      </ul>
-    </li>
     <li>I get an error saying "EADDRESS IN USE"
       <ul>
         <li>This means you have multiple instances of the server application running</li>
@@ -75,6 +68,11 @@
       <ul>
         <li>Ensure both your mobile device as well as your PC are on the same local network</li>
         <li>Confirm Windows firewall / security settings are not blocking the app communication</li>
+      </ul>
+    </li>
+    <li>I get a Windows warning saying the software might not be safe
+      <ul>
+        <li>This is false alarm and can be safely ignored</li>
       </ul>
     </li>
   </ul>
