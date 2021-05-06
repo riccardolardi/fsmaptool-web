@@ -55,6 +55,7 @@
       <ul>
         <li>Map can be dragged & zoomed like normal Google Maps / Apple Maps</li>
         <li>Switchable map types (satellite or plain)</li>
+        <li>Plane icon can be changed (tap on plane to cycle)</li>
         <li>Toggle map center / auto-follow airplane</li>
         <li>Toggle lock view orientation to plane heading or to north</li>
       </ul>
