@@ -13,6 +13,7 @@
 		justify-content: space-between;
 		height: calc(100vh - 6rem);
 		overflow: hidden;
+		position: relative;
 		@include breakpoint($breakMobile) {
 			height: calc(100vh - 10rem);
 		}
@@ -25,6 +26,33 @@
 		@include breakpoint($breakMobile) {
 			top: 1rem;
 			left: 0px;
+		}
+	}
+	.version-announcement {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: absolute;
+		top: 6rem;
+		right: 2vw;
+		width: 16vmin;
+		height: 16vmin;
+		border-radius: 50%;
+		background-color: #ee6161;
+		transform: rotate(15deg);
+		text-decoration: none;
+		white-space: unset;
+		@include breakpoint($breakMobile) {
+			top: 2rem;
+		}
+		p {
+			color: white;
+			text-align: center;
+			margin: 0;
+			font-weight: bold;
+			font-style: italic;
+			font-size: 2.5vmin;
+			line-height: 1.4;
 		}
 	}
 	.appstore-badge,
@@ -64,6 +92,7 @@
 	}
 	h2 {
 		margin-bottom: 1rem;
+		width: 80%;
 		@include breakpoint($breakMobile) {
 			font-size: 1.4rem;
 			line-height: 125%;
@@ -72,6 +101,7 @@
 	h3 {
 		font-size: 3rem;
 		padding-left: 2rem;
+		width: 80%;
 		@include breakpoint($breakMobile) {
 			font-size: 1.5rem;
 			line-height: 125%;
@@ -102,6 +132,9 @@
 				</a>
 			</figure>
 		</div>
+		<a href="/setup" class="version-announcement">
+			<p>New Version 1.1.0</p>
+		</a>
 	</div>
 	<figure class="illustration">
 		<img alt="FS Map Tool" src="{illustration}">
