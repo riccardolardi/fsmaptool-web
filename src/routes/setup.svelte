@@ -53,7 +53,7 @@
   <ul>
     <li>Download the server app installer (currently Windows 10 64bit only)
       <ul>
-        <li><a href="https://fsmaptool.riccardolardi.com/1.0.3/FS Map Tool Server Setup 1.0.3.exe">FS Map Tool Server Setup 1.0.3</a></li>
+        <li><a href="https://fsmaptool.riccardolardi.com/1.1.0/FS Map Tool Server Setup 1.1.0.exe">FS Map Tool Server Setup 1.1.0</a></li>
       </ul>
     </li>
     <li>Launch the installer, the app will install and launch automatically
