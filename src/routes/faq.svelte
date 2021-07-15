@@ -68,6 +68,7 @@
       <ul>
         <li>Ensure both your mobile device as well as your PC are on the same local network</li>
         <li>Confirm Windows firewall / security settings are not blocking the app communication</li>
+        <li>Check your Wifi/LAN router settings, check router security options</li>
       </ul>
     </li>
     <li>I get a Windows warning saying the software might not be safe

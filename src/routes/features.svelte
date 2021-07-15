@@ -13,11 +13,18 @@
     @include breakpoint($breakMobile) {
       margin-left: 1rem;
     }
+    h3 {
+      font-size: 1.4rem;
+      font-style: italic;
+      @include breakpoint($breakMobile) {
+        font-size: 1.2rem;
+      }
+    }
     li {
       list-style: disc;
       margin-bottom: 0.5rem;
       @include breakpoint($breakMobile) {
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
       }
       ul {
         margin-top: 0;
@@ -33,7 +40,10 @@
           list-style: circle;
           margin-bottom: 0;
           @include breakpoint($breakMobile) {
-            margin-bottom: 0;
+            margin-bottom: 0.4rem;
+            &:first-child {
+              margin-top: 0.4rem;
+            }
           }
         }
       }
@@ -51,7 +61,7 @@
   <p class="italic">FS Map Tool is actively maintained and extended with new features on a regular basis.</p>
   <p>Currently these are the apps main features:</p>
   <ul>
-    <li>Interactive Map & plane location
+    <li><h3>Interactive Map & plane location</h3>
       <ul>
         <li>Map can be dragged & zoomed like normal Google Maps / Apple Maps</li>
         <li>Switchable map types (satellite or plain)</li>
@@ -60,7 +70,14 @@
         <li>Toggle lock view orientation to plane heading or to north</li>
       </ul>
     </li>
-    <li>Custom Waypoints (no flight plan data import from FS2020 yet)
+    <li><h3>Teleportation</h3>
+      <ul>
+        <li>Teleport your plane anywhere in the world in an instant</li>
+        <li>Long-press on the location where you want to teleport</li>
+        <li>A dialog will appear, select 'teleport'</li>
+      </ul>
+    </li>
+    <li><h3>Custom Waypoints (no flight plan data import from FS2020 yet)</h3>
       <ul>
         <li>Add custom waypoints by long-pressing on a map location</li>
         <li>Move waypoints by long-pressing on a pin and dragging</li>
@@ -68,8 +85,7 @@
         <li>Switch between active waypoints with top right waypoint control buttons</li>
       </ul>
     </li>
-    <li>
-      Show additional flight parameters on a HUD, currently:
+    <li><h3>Show additional flight parameters on a HUD, currently:</h3>
       <ul>
         <li>Heading, airspeed and altitude</li>
       </ul>
