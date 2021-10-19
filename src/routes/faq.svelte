@@ -50,6 +50,11 @@
   <h2>Frequently asked questions.</h2>
   <p class="italic">If you face any issues, check here for possible solutions:</p>
   <ul>
+    <li>Does this work on the XBox?
+      <ul>
+        <li>No, sadly this is only for the PC version currently.</li>
+      </ul>
+    </li>
     <li>I get an error saying "Uncaught Exception: Error: The specified module could not be found"
       <ul>
         <li>This means your system is lacking some Library files from Microsoft</li>
