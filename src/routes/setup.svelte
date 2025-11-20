@@ -48,7 +48,7 @@
 
 <div id="setup">
   <h2>Using FS Map Tool is easy.</h2>
-  <p class="italic">Alongside the mobile app you'll need to install the server application on your PC, which will act as a gateway for communication between MS FS 2020 and FS Map Tool.</p>
+  <p class="italic">Alongside the mobile app you'll need to install the server application on your PC, which will act as a gateway for communication between MS FS 2020/2024 and FS Map Tool.</p>
   <p>Follow these steps:</p>
   <ul>
     <li>Download the server app installer (currently Windows 10 64bit only)
@@ -60,8 +60,8 @@
       <ul>
         <li>The app will run in background and show up in the system tray as a small icon</li>
         <li>Clicking on the system tray app icon opens up a context menu</li>
-        <li>The app will now listen for MS FS 2020 data and forward if requested</li>
-        <li>The tray icon will turn to green as soon as it's connected with MS FS 2020</li>
+        <li>The app will now listen for MS FS 2020/2024 data and forward if requested</li>
+        <li>The tray icon will turn to green as soon as it's connected with MS FS 2020/2024</li>
       </ul>
     </li>
     <li>Click on the system tray app icon to show your PC IP address</li>

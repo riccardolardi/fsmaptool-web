@@ -77,7 +77,7 @@
         <li>A dialog will appear, select 'teleport'</li>
       </ul>
     </li>
-    <li><h3>Custom Waypoints (no flight plan data import from FS2020 yet)</h3>
+    <li><h3>Custom Waypoints (no flight plan data import from FS 2020/2024 yet)</h3>
       <ul>
         <li>Add custom waypoints by long-pressing on a map location</li>
         <li>Move waypoints by long-pressing on a pin and dragging</li>
