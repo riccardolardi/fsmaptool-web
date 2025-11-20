@@ -132,9 +132,6 @@
 				</a>
 			</figure>
 		</div>
-		<a href="/setup" class="version-announcement">
-			<p>New Version 1.1.0</p>
-		</a>
 	</div>
 	<figure class="illustration">
 		<img alt="FS Map Tool" src="{illustration}">
