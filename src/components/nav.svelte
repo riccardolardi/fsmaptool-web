@@ -2,8 +2,21 @@
   export let segment;
 </script>
 
+<nav>
+  <h1 class="bold"><a href="/">FS Map Tool</a></h1>
+  <ul>
+    <li class:active={!segment}><a href=".">Home</a></li>
+    <li class:active={segment === "features"}>
+      <a href="/features">Features</a>
+    </li>
+    <li class:active={segment === "setup"}><a href="/setup">Setup</a></li>
+    <li class:active={segment === "faq"}><a href="/faq">FAQ</a></li>
+    <li class:active={segment === "support"}><a href="/support">Support</a></li>
+  </ul>
+</nav>
+
 <style lang="scss">
-  @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
+  @import "breakpoint-sass/stylesheets/_breakpoint.scss";
   @import "../var.scss";
   nav {
     display: flex;
@@ -57,14 +70,3 @@
     }
   }
 </style>
-
-<nav>
-  <h1 class="bold"><a href="/">FS Map Tool</a></h1>
-  <ul>
-    <li class:active={!segment}><a href=".">Home</a></li>
-    <li class:active={segment === 'features'}><a href="/features">Features</a></li>
-    <li class:active={segment === 'setup'}><a href="/setup">Setup</a></li>
-    <li class:active={segment === 'faq'}><a href="/faq">FAQ</a></li>
-    <li class:active={segment === 'support'}><a href="/support">Support</a></li>
-  </ul>
-</nav>

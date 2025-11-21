@@ -1,9 +1,68 @@
 <script>
-
 </script>
 
+<footer>
+  <div class="left">
+    <ul>
+      <li>
+        <a
+          href="https://apps.apple.com/us/app/id1536321554#?platform=iphone"
+          rel="noreferrer"
+          target="_blank">Apple App Store</a
+        >
+      </li>
+      <li class="google-play">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.riccardolardi.fsmaptool"
+          rel="noreferrer"
+          target="_blank">Google Play</a
+        >
+        <span>Coming soon</span>
+      </li>
+      <li>
+        <a
+          href="https://github.com/riccardolardi/fsmaptool-client"
+          rel="noreferrer"
+          target="_blank">Github Client</a
+        >
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <a
+          href="https://github.com/riccardolardi/fsmaptool-server"
+          rel="noreferrer"
+          target="_blank">Github Server</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/riccardolardi/fsmaptool-web/blob/master/PRIVACY.md"
+          rel="noreferrer"
+          target="_blank">Privacy Policy</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://github.com/riccardolardi/fsmaptool-web/blob/master/TERMS.md"
+          rel="noreferrer"
+          target="_blank">Terms of use</a
+        >
+      </li>
+    </ul>
+  </div>
+  <ul class="right">
+    <li>
+      <a href="mailto:info@fsmaptool.com">info@fsmaptool.com</a>
+    </li>
+    <li>
+      <span class="italic">Happy Flying!</span>
+    </li>
+  </ul>
+</footer>
+
 <style lang="scss">
-  @import 'breakpoint-sass/stylesheets/_breakpoint.scss';
+  @import "breakpoint-sass/stylesheets/_breakpoint.scss";
   @import "../var.scss";
   footer {
     display: flex;
@@ -16,6 +75,14 @@
   }
   ul {
     display: flex;
+    li {
+      &.google-play {
+        cursor: not-allowed;
+        a {
+          pointer-events: none;
+        }
+      }
+    }
     & + ul {
       li {
         &:last-child {
@@ -75,26 +142,3 @@
     }
   }
 </style>
-
-<footer>
-  <div class="left">
-    <ul>
-      <li><a href="https://apps.apple.com/us/app/id1536321554#?platform=iphone" rel="noreferrer" target="_blank">Apple App Store</a></li>
-      <li><a href="https://play.google.com/store/apps/details?id=com.riccardolardi.fsmaptool" rel="noreferrer" target="_blank">Google Play</a></li>
-      <li><a href="https://github.com/riccardolardi/fsmaptool-client" rel="noreferrer" target="_blank">Github Client</a></li>
-    </ul>
-    <ul>
-      <li><a href="https://github.com/riccardolardi/fsmaptool-server" rel="noreferrer" target="_blank">Github Server</a></li>
-      <li><a href="https://github.com/riccardolardi/fsmaptool-web/blob/master/PRIVACY.md" rel="noreferrer" target="_blank">Privacy Policy</a></li>
-      <li><a href="https://github.com/riccardolardi/fsmaptool-web/blob/master/TERMS.md" rel="noreferrer" target="_blank">Terms of use</a></li>
-    </ul>
-  </div>
-  <ul class="right">
-    <li>
-      <a href="mailto:info@fsmaptool.com">info@fsmaptool.com</a>
-    </li>
-    <li>
-      <span class="italic">Happy Flying!</span>
-    </li>
-  </ul>
-</footer>
